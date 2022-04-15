@@ -1,0 +1,87 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'zeeshan hooda'
+theme: "PaperMod"
+
+params:
+  defaultTheme: dark
+  showBreadcrumbs: false
+  showCodeCopyButtons: false
+  images: ["/hex-profile.png"]
+
+  profileMode:
+    enabled: true
+    title: Hi I'm Zeeshan 👋
+    # subtitle: "I am a Data Scientist @ Smart Access,<br/>currently working on event-driven analytics products!"
+    subtitle: "I am Data Scientist @ **[Smart Access](https://smartaccess.io)**"
+    # subsubtitle: "passionate about creating event-driven analytics products!"
+    # imageUrl: 'https://avatars.githubusercontent.com/u/48365022?s=400&u=3e0816a1245cb0d619f6196d249822e40dd66889&v=4'
+    imageUrl: '/hex-profile.png'
+    imageTitle: hi
+    # buttons:
+    #   - name: about me
+    #     url: "/about"
+    #   - name: Projects
+    #     url: "/projects"
+    #   - name: Posts
+    #     url: "/posts"
+
+  socialIcons:
+    - name: 'github'
+      url: 'https://github.com/zhooda'
+    - name: 'linkedin'
+      url: 'https://www.linkedin.com/in/zeeshanhooda/'
+    - name: 'email'
+      url: 'mailto:zhooda@protonmail.com'
+
+# menu:
+#   main:
+#     - identifier: about
+#       name: about me
+#       url: /about/
+#       weight: 30
+
+# [author]
+#   name = "Zeeshan Hooda"
+
+# [params]
+#   homeSubtitle = "Data Scientist & Engineer"
+
+#   [[params.social]]
+#     name = "github"
+#     url = "https://github.com/zhooda"
+#   [[params.social]]
+#     name = "linkedin"
+#     url = "https://www.linkedin.com/in/zeeshanhooda/"
+#   [[params.social]]
+#     name = "instagram"
+#     url = "https://www.instagram.com/zeeshanshooda/"
+#   [[params.social]]
+#     name = "email"
+#     url = "mailto:zhooda@protonmail.com"
+#   [[params.social]]
+#     name = "hackerrank"
+#     url = "https://www.hackerrank.com/hampers_twines_1"
+
+#   [params.footer]
+#     trademark = false
+#     rss = false
+#     copyright = false
+#     author = false
+
+#     topText = ["© 2022 • Zeeshan Hooda"]
+#     bottomText = [
+#       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+#       # "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+#     ]
+
+
+# [menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name       = "About"
+#     url        = "about/"
+#   [[menu.main]]
+#     identifier = "posts"
+#     name       = "Posts"
+#     url        = "posts/"
