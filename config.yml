@@ -37,6 +37,8 @@ params:
       url: '/resume.pdf'
     - name: 'youtube'
       url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    - name: 'applemusic'
+      url: 'https://music.apple.com/profile/zeeshanhooda'
 
 # menu:
 #   main:
