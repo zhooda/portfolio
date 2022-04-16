@@ -20,7 +20,7 @@ params:
     imageTitle: hi
     buttons:
       - name: resumé
-        url: "/resume.pdf"
+        url: "/resume"
     #   - name: Projects
     #     url: "/projects"
     #   - name: Posts
