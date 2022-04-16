@@ -8,7 +8,7 @@ draft: false
 
 ### Contract Services
 
-Here are all the contract services I provide, and their accompanying hourly rate. Want to hire me for something that's not listed? [Contact me](zhooda@protonmail.com)
+Here are all the contract services I provide, and their accompanying hourly rate. Want to hire me for something that's not listed? [Contact me](mailto:zhooda@protonmail.com)
 
 #### Services for Existing Data Infrastructure
 
