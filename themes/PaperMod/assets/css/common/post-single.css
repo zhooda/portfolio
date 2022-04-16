@@ -138,6 +138,24 @@
     padding: 12px 8px;
     line-height: 1.5;
     border-bottom: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+}
+
+.post-content table th:last-child,
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td:last-child {
+    min-width: 80px;
+    padding: 12px 8px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border);
+    border-right: none;
+}
+
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) tr:last-child td {
+    min-width: 80px;
+    padding: 12px 8px;
+    line-height: 1.5;
+    border-bottom: none;
+    /* border-right: none; */
 }
 
 .post-content table th {

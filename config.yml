@@ -18,9 +18,9 @@ params:
     # imageUrl: 'https://avatars.githubusercontent.com/u/48365022?s=400&u=3e0816a1245cb0d619f6196d249822e40dd66889&v=4'
     imageUrl: '/hex-profile.png'
     imageTitle: hi
-    # buttons:
-      # - name: resumé
-        # url: "/resume.pdf"
+    buttons:
+      - name: resumé
+        url: "/resume.pdf"
     #   - name: Projects
     #     url: "/projects"
     #   - name: Posts
@@ -33,12 +33,10 @@ params:
       url: 'https://www.linkedin.com/in/zeeshanhooda/'
     - name: 'email'
       url: 'mailto:zhooda@protonmail.com'
-    - name: 'cv'
-      url: '/resume.pdf'
+    - name: 'bc'
+      url: '/hire-me'
     - name: 'youtube'
       url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    - name: 'applemusic'
-      url: 'https://music.apple.com/profile/zeeshanhooda'
 
 # menu:
 #   main:
