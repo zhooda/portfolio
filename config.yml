@@ -1,9 +1,20 @@
-baseURL: '/'
+baseURL: 'https://zeeshan.hooda.dev'
 languageCode: 'en-us'
 title: 'zeeshan hooda'
 theme: "PaperMod"
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
 params:
+  author: Zeeshan Hooda
+  description: 'Data Scientist @ Smart Access | Specializing in event-driven analytics systems'
+
   defaultTheme: dark
   showBreadcrumbs: true
   showCodeCopyButtons: true
