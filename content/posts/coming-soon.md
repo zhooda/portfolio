@@ -6,6 +6,6 @@ author: Zeeshan Hooda
 tags: ["coming-soon", "test"]
 ---
 
-I've been meaning to start a blog to document some journies through technical challenges, so stay tuned for some upcomming blog posts.
+I've been meaning to start a blog to document some journeys through technical challenges, so stay tuned for some upcoming blog posts.
 
 In the mean time, you can head back [home](/) to grab my contact info!

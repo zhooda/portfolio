@@ -1,10 +1,8 @@
 ---
 title: "Enriched Funnels in SQL"
 description: "A SQL exploration to help drill down into lower level metrics a basic funnel can't provide"
-cover:
-    caption: "A SQL exploration to help drill down into lower level metrics a basic funnel can't provide"
 date: 2022-04-17T19:42:57-06:00
-draft: false
+draft: true
 author: Zeeshan Hooda
 tags: ["SQL", "Big Data", "Analytics", "Event Driven Analytics", "Funnel"]
 ShowToc: true
