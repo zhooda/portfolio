@@ -8,6 +8,7 @@ params:
   showBreadcrumbs: true
   showCodeCopyButtons: true
   images: ["/hex-profile.png"]
+  math: true
 
   profileMode:
     enabled: true
