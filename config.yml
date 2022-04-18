@@ -9,6 +9,8 @@ params:
   showCodeCopyButtons: true
   images: ["/hex-profile.png"]
   math: true
+  ShowReadingTime: true
+  ShowShareButtons: true
 
   profileMode:
     enabled: true

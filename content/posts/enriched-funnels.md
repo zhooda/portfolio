@@ -8,7 +8,6 @@ draft: false
 author: Zeeshan Hooda
 tags: ["SQL", "Big Data", "Analytics", "Event Driven Analytics", "Funnel"]
 ShowToc: true
-math: true
 ---
 
 # Intro
