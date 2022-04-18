@@ -33,15 +33,15 @@ params:
     subtitle: "I'm a Data Scientist @ **[Smart Access](https://smartaccess.io)**"
     # subsubtitle: "passionate about creating event-driven analytics products!"
     # imageUrl: 'https://avatars.githubusercontent.com/u/48365022?s=400&u=3e0816a1245cb0d619f6196d249822e40dd66889&v=4'
-    imageUrl: '/hex-profile.png'
+    imageUrl: '/media/upload/hex-profile.png'
     imageTitle: hi
     buttons:
       - name: resumé
-        url: "/resume.pdf"
+        url: "/media/upload/resume.pdf"
       - name: posts
         url: "/posts"
-      - name: tags
-        url: "/tags"
+      # - name: tags
+      #   url: "/tags"
     #   - name: Posts
     #     url: "/posts"
 
@@ -60,7 +60,7 @@ params:
 menu:
   main:
     - identifier: archives
-      name: archives
+      name: archive
       url: /archives/
       weight: 10
     - identifier: tags
