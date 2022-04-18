@@ -38,12 +38,12 @@ params:
     - name: 'youtube'
       url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 
-# menu:
-#   main:
-#     - identifier: about
-#       name: about me
-#       url: /about/
-#       weight: 30
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
 
 # [author]
 #   name = "Zeeshan Hooda"
