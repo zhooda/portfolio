@@ -5,8 +5,8 @@ theme: "PaperMod"
 
 params:
   defaultTheme: dark
-  showBreadcrumbs: false
-  showCodeCopyButtons: false
+  showBreadcrumbs: true
+  showCodeCopyButtons: true
   images: ["/hex-profile.png"]
 
   profileMode:
@@ -20,9 +20,9 @@ params:
     imageTitle: hi
     buttons:
       - name: resumé
-        url: "/resume"
-    #   - name: Projects
-    #     url: "/projects"
+        url: "/resume.pdf"
+      - name: posts
+        url: "/posts"
     #   - name: Posts
     #     url: "/posts"
 
