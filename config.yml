@@ -12,6 +12,9 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
 
+  label:
+    text: zh
+
   profileMode:
     enabled: true
     title: Hi I'm Zeeshan 👋
