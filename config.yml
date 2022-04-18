@@ -23,6 +23,8 @@ params:
         url: "/resume.pdf"
       - name: posts
         url: "/posts"
+      - name: tags
+        url: "/tags"
     #   - name: Posts
     #     url: "/posts"
 
@@ -44,6 +46,22 @@ menu:
       name: archives
       url: /archives/
       weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+author:
+  name: Zeeshan Hooda
 
 # [author]
 #   name = "Zeeshan Hooda"
