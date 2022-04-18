@@ -1,14 +1,15 @@
 ---
 title: "Enriched Funnels in SQL"
+description: "A SQL exploration to help drill down into lower level metrics a basic funnel can't provide"
+cover:
+    caption: "A SQL exploration to help drill down into lower level metrics a basic funnel can't provide"
 date: 2022-04-17T19:42:57-06:00
-draft: true
+draft: false
 author: Zeeshan Hooda
 tags: ["SQL", "Big Data", "Analytics", "Event Driven Analytics", "Funnel"]
 ShowToc: true
 math: true
 ---
-
-
 
 # Intro
 
@@ -22,13 +23,14 @@ Many of us have heard of, and are intimately familiar with generic funnels, but 
 Let's take this example funnel, which shows a feature that lets customers in a retail store request help online and have an employee dispatched to them in-store:
 
 | Step             | Count | Lag | Drop Off |
-| ---------------- | ----- | --- | -------- |
-| Product View     | 593   |     |          |
-| Request Help     | 142   | 593 | 0.76     |
-| Request Accepted | 127   | 142 | 0.11     |
-| Help Arrived     | 101   | 127 | 0.20     |
+| ---------------- | ----: | --: | -------: |
+| Product View     |   593 |     |          |
+| Request Help     |   142 | 593 |     0.76 |
+| Request Accepted |   127 | 142 |     0.11 |
+| Help Arrived     |   101 | 127 |     0.20 |
 
 Drop off is calculated as follows:
+
 $$
 \text{Drop Off} = 1 - \frac{lag(count, 1)~over~(~)}{count(*)}~~(1)
 $$
