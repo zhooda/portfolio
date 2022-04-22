@@ -35,6 +35,9 @@
 
         {{- with .buttons }}
         <div class="buttons">
+            <a class="button" href="/media/upload/resume.pdf" rel="noopener" title="Resumé" download="Zeeshan Hooda Resume.pdf">
+                <span class="button-inner">Resumé</span>
+            </a>
             {{- range . }}
             <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
                 <span class="button-inner">{{ .name | title }}</span>

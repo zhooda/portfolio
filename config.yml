@@ -36,8 +36,8 @@ params:
     imageUrl: '/media/upload/hex-profile.png'
     imageTitle: hi
     buttons:
-      - name: resumé
-        url: "/media/upload/resume.pdf"
+      # - name: resumé
+      #   url: "/media/upload/resume.pdf"
       - name: posts
         url: "/posts"
       # - name: tags
