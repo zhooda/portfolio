@@ -31,7 +31,7 @@ params:
     title: Hi I'm Zeeshan 👋
     # subtitle: "I am a Data Scientist @ Smart Access,<br/>currently working on event-driven analytics products!"
     subtitle: "I'm a Data Scientist @ **[Smart Access](https://smartaccess.io)**"
-    # subsubtitle: "passionate about creating event-driven analytics products!"
+    subsubtitle: "and a MSc Student @ **[UAlberta](https://ualberta.ca)**"
     # imageUrl: 'https://avatars.githubusercontent.com/u/48365022?s=400&u=3e0816a1245cb0d619f6196d249822e40dd66889&v=4'
     imageUrl: '/media/upload/hex-profile.png'
     imageTitle: hi
@@ -40,6 +40,8 @@ params:
       #   url: "/media/upload/resume.pdf"
       - name: posts
         url: "/posts"
+      # - name: publications
+        # url: "https://orcid.org/0000-0001-9585-644X"
       # - name: tags
       #   url: "/tags"
     #   - name: Posts
@@ -52,6 +54,8 @@ params:
       url: 'https://www.linkedin.com/in/zeeshanhooda/'
     - name: 'email'
       url: 'mailto:zhooda@protonmail.com'
+    # - name: 'orcid'
+      # url: 'https://orcid.org/0000-0001-9585-644X'
     # - name: 'bc'
     #   url: '/hire-me'
     - name: 'youtube'
