@@ -31,7 +31,7 @@ params:
     title: Hi I'm Zeeshan 👋
     # subtitle: "I am a Data Scientist @ Smart Access,<br/>currently working on event-driven analytics products!"
     subtitle: "I'm a Data Scientist @ **[Smart Access](https://smartaccess.io)**"
-    subsubtitle: "and a MSc Student @ **[UAlberta](https://ualberta.ca)**"
+    subsubtitle: "and a PhD Student @ **[UC Berkeley](https://cs.berkeley.edu)**"
     # imageUrl: 'https://avatars.githubusercontent.com/u/48365022?s=400&u=3e0816a1245cb0d619f6196d249822e40dd66889&v=4'
     imageUrl: '/media/upload/hex-profile.png'
     imageTitle: hi
