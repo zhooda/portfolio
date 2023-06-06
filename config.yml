@@ -40,8 +40,8 @@ params:
       #   url: "/media/upload/resume.pdf"
       - name: posts
         url: "/posts"
-      - name: schedule a meeting
-        url: "https://calendly.com/zeeshanhooda"
+      # - name: schedule a meeting
+      #   url: "https://calendly.com/zeeshanhooda"
       # - name: publications
       # url: "https://orcid.org/0000-0001-9585-644X"
       # - name: tags
