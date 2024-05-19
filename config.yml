@@ -68,15 +68,19 @@ menu:
     - identifier: archives
       name: archive
       url: /archives/
-      weight: 10
+      weight: 3
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 10
+      weight: 4
     - identifier: posts
-      name: posts
+      name: writings
       url: /posts/
-      weight: 10
+      weight: 1
+    - identifier: vehicles
+      name: vehicles
+      url: /vehicles/
+      weight: 2
 
 taxonomies:
   category: categories
