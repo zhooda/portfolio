@@ -2,7 +2,7 @@
 title: "Semantics Matter: Why 'AI' is a Dangerous"
 subtitle: "Why 'AI' is a Dangerous Term"
 date: 2022-04-17T19:42:57-06:00
-draft: false
+draft: true
 author: Zeeshan Hooda
 tags: ["AI", "GenAI", "Machine Learning", "ML", "Funnel"]
 ShowToc: true
