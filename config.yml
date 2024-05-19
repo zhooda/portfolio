@@ -15,7 +15,7 @@ params:
   author: Zeeshan Hooda
   description: "Co-Founder @ Sparse Labs | Specializing in event-driven analytics systems"
 
-  defaultTheme: dark
+  defaultTheme: light
   showBreadcrumbs: true
   showCodeCopyButtons: true
   images: ["/hex-profile.png"]
@@ -29,9 +29,10 @@ params:
   profileMode:
     enabled: true
     title: 👋 &nbsp; I'm Zeeshan
+    subtitle: "I like to make machines think and work on cars"
     # subtitle: "I am a Data Scientist @ Smart Access,<br/>currently working on event-driven analytics products!"
-    subtitle: "a Co-Founder @ **[Sparse Labs](http://sparselabs.org)**"
-    subsubtitle: "and a PhD Candidate @ **[UC Berkeley](https://cs.berkeley.edu)**"
+    # subtitle: "a Co-Founder @ **[Sparse Labs](http://sparselabs.org)**"
+    # subsubtitle: "and a PhD Candidate @ **[UC Berkeley](https://cs.berkeley.edu)**"
     # imageUrl: 'https://avatars.githubusercontent.com/u/48365022?s=400&u=3e0816a1245cb0d619f6196d249822e40dd66889&v=4'
     imageUrl: "/media/upload/hex-profile.png"
     imageTitle: profile picture
@@ -40,6 +41,8 @@ params:
       #   url: "/media/upload/resume.pdf"
       - name: posts
         url: "/posts"
+      - name: vehicles
+        url: "/vehicles"
       # - name: schedule a meeting
       #   url: "https://calendly.com/zeeshanhooda"
       # - name: publications
